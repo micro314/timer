@@ -1,0 +1,22 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "A simple web-based timer app written in JavaScript.",
+  "main": "index.js",
+  "jest": {
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micro314/timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micro314/timer/issues"
+  },
+  "homepage": "https://github.com/micro314/timer#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
