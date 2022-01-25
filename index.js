@@ -10,6 +10,7 @@ class Timer {
 
     start = () => {
         console.log("start");
+        this.tick();
         this.intervalId = setInterval(this.tick, 1000);
     }
 
