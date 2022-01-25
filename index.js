@@ -20,7 +20,16 @@ class Timer {
     }
 
     tick = () => {
-        console.log("tick");
+        this.timeRemaining = this.timeRemaining - 1;
+    }
+
+    // DOM-centric approach to data storage, done for educational purposes
+    get timeRemaining() {
+        return parseFloat(this.durationInput.value);
+    }
+
+    set timeRemaining(time) {
+        this.durationInput.value = time;
     }
 }
 
